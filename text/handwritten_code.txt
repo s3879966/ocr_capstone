@@ -1,0 +1,10 @@
+import os
+import blob
+Key = os. environ. get ('Key')
+end = os. environ. get ('end')
+def get _ words ( page, line):
+result = []
+for word in page. words:
+if_in_span (word, line, spans
+result. append (word)
+return result

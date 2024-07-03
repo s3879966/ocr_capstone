@@ -1,0 +1,16 @@
+Nguyen Tung Nghĩa (53879966)
+Intro to IT
+int main() {
+float num 1 , num 2, num 3;
+printf (" Enter 3 float numbers: ");
+7
+scant (1 %of %of %of, &runt, &rum 2, & num 3);
+1
+printf ( " A number is the sum of the others: ");
+/ Check all conditions and print appropriate results
+if (num 1 + num 2± num 3) {
+printf ( "YES");
+)
+}else if (num 1 + num 3 = num 2
+printf ("YES")
+1

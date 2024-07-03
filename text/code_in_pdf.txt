@@ -1,0 +1,16 @@
+Student Name: Nguyen Tung Nghia
+Student ID: S3879966
+Course: Intro to IT
+import configparser
+from azure.core.credentials import AzureKeyCredential
+from azure.ai.documentintelligence import DocumentIntelligenceClient
+def client():
+config = configparser.ConfigParser()
+config.read('client.ini')
+// pass sensitive information containt key and endpoint
+key = config.get('Capstoner_AutoGrader', 'key')
+# an endpoint is a URL at which a web service can be accessed by a client application.
+endpoint = config.get('Capstoner_AutoGrader', 'endpoint')
+client = DocumentIntelligenceClient(endpoint-endpoint,
+credential=AzureKeyCredential(key))
+return client
